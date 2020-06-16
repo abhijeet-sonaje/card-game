@@ -1,0 +1,25 @@
+{
+    "name": "test-code",
+    "version": "1.0.0",
+    "description": "A simple luck-based game for people to play when they have limited motor and sensory control",
+    "keywords": [
+        "cards",
+        "game",
+        "luck",
+        "luck-based game",
+        "card-game",
+        "limited motor",
+        "sensory control"
+    ],
+    "main": "index.ts",
+    "scripts": {
+        "start": "ts-node ./index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Abhijeet Sonaje(https://github.com/abhijeet-sonaje)",
+    "license": "MIT",
+    "devDependencies": {
+        "ts-node": "^8.10.2",
+        "typescript": "^3.9.5"
+    }
+}
