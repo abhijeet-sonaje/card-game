@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "noEmitOnError": false,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "inlineSources": true,
+        "experimentalDecorators": true,
+        "target": "es6",
+        "skipLibCheck": true,
+        "outDir": "debug",
+        "lib": [
+            "es6"
+        ],
+        "baseUrl": "./",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "node",
+            "mocha"
+        ],
+        "paths": {
+            "./*": [
+                "./*"
+            ]
+        }
+    },
+    "compileOnSave": true
+}
